@@ -1,0 +1,81 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.sessontimeout"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/omarsharif/Desktop/untitled/SessonTimeOut/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/omarsharif/Desktop/untitled/SessonTimeOut/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/omarsharif/Desktop/untitled/SessonTimeOut/app/src/main/AndroidManifest.xml:6:5-27:19
+12        android:name="com.example.sessontimeout.MyApp"
+12-->/Users/omarsharif/Desktop/untitled/SessonTimeOut/app/src/main/AndroidManifest.xml:7:9-30
+13        android:allowBackup="true"
+13-->/Users/omarsharif/Desktop/untitled/SessonTimeOut/app/src/main/AndroidManifest.xml:8:9-35
+14        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+14-->[androidx.core:core:1.7.0] /Users/omarsharif/.gradle/caches/transforms-3/0c734a8f9451ded3159b05d46fc9a23a/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+15        android:dataExtractionRules="@xml/data_extraction_rules"
+15-->/Users/omarsharif/Desktop/untitled/SessonTimeOut/app/src/main/AndroidManifest.xml:9:9-65
+16        android:debuggable="true"
+17        android:fullBackupContent="@xml/backup_rules"
+17-->/Users/omarsharif/Desktop/untitled/SessonTimeOut/app/src/main/AndroidManifest.xml:10:9-54
+18        android:icon="@mipmap/ic_launcher"
+18-->/Users/omarsharif/Desktop/untitled/SessonTimeOut/app/src/main/AndroidManifest.xml:11:9-43
+19        android:label="@string/app_name"
+19-->/Users/omarsharif/Desktop/untitled/SessonTimeOut/app/src/main/AndroidManifest.xml:12:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->/Users/omarsharif/Desktop/untitled/SessonTimeOut/app/src/main/AndroidManifest.xml:13:9-54
+21        android:supportsRtl="true"
+21-->/Users/omarsharif/Desktop/untitled/SessonTimeOut/app/src/main/AndroidManifest.xml:14:9-35
+22        android:testOnly="true"
+23        android:theme="@style/Theme.SessonTimeOut" >
+23-->/Users/omarsharif/Desktop/untitled/SessonTimeOut/app/src/main/AndroidManifest.xml:15:9-51
+24        <activity
+24-->/Users/omarsharif/Desktop/untitled/SessonTimeOut/app/src/main/AndroidManifest.xml:17:9-25:20
+25            android:name="com.example.sessontimeout.LoginActivity"
+25-->/Users/omarsharif/Desktop/untitled/SessonTimeOut/app/src/main/AndroidManifest.xml:18:13-42
+26            android:exported="true" >
+26-->/Users/omarsharif/Desktop/untitled/SessonTimeOut/app/src/main/AndroidManifest.xml:19:13-36
+27            <intent-filter>
+27-->/Users/omarsharif/Desktop/untitled/SessonTimeOut/app/src/main/AndroidManifest.xml:20:13-24:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->/Users/omarsharif/Desktop/untitled/SessonTimeOut/app/src/main/AndroidManifest.xml:21:17-69
+28-->/Users/omarsharif/Desktop/untitled/SessonTimeOut/app/src/main/AndroidManifest.xml:21:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->/Users/omarsharif/Desktop/untitled/SessonTimeOut/app/src/main/AndroidManifest.xml:23:17-77
+30-->/Users/omarsharif/Desktop/untitled/SessonTimeOut/app/src/main/AndroidManifest.xml:23:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity android:name="com.example.sessontimeout.MainActivity" />
+33-->/Users/omarsharif/Desktop/untitled/SessonTimeOut/app/src/main/AndroidManifest.xml:26:9-49
+33-->/Users/omarsharif/Desktop/untitled/SessonTimeOut/app/src/main/AndroidManifest.xml:26:19-47
+34
+35        <provider
+35-->[androidx.emoji2:emoji2:1.0.0] /Users/omarsharif/.gradle/caches/transforms-3/9cb5d0b2fd275b8005e0d8fda37c4df6/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+36            android:name="androidx.startup.InitializationProvider"
+36-->[androidx.emoji2:emoji2:1.0.0] /Users/omarsharif/.gradle/caches/transforms-3/9cb5d0b2fd275b8005e0d8fda37c4df6/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+37            android:authorities="com.example.sessontimeout.androidx-startup"
+37-->[androidx.emoji2:emoji2:1.0.0] /Users/omarsharif/.gradle/caches/transforms-3/9cb5d0b2fd275b8005e0d8fda37c4df6/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+38            android:exported="false" >
+38-->[androidx.emoji2:emoji2:1.0.0] /Users/omarsharif/.gradle/caches/transforms-3/9cb5d0b2fd275b8005e0d8fda37c4df6/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+39            <meta-data
+39-->[androidx.emoji2:emoji2:1.0.0] /Users/omarsharif/.gradle/caches/transforms-3/9cb5d0b2fd275b8005e0d8fda37c4df6/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+40                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+40-->[androidx.emoji2:emoji2:1.0.0] /Users/omarsharif/.gradle/caches/transforms-3/9cb5d0b2fd275b8005e0d8fda37c4df6/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+41                android:value="androidx.startup" />
+41-->[androidx.emoji2:emoji2:1.0.0] /Users/omarsharif/.gradle/caches/transforms-3/9cb5d0b2fd275b8005e0d8fda37c4df6/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+42            <meta-data
+42-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/omarsharif/.gradle/caches/transforms-3/8eef53d9995d138e5396bc0361630197/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+43                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+43-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/omarsharif/.gradle/caches/transforms-3/8eef53d9995d138e5396bc0361630197/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+44                android:value="androidx.startup" />
+44-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/omarsharif/.gradle/caches/transforms-3/8eef53d9995d138e5396bc0361630197/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+45        </provider>
+46    </application>
+47
+48</manifest>

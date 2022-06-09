@@ -1,0 +1,10 @@
+#Thu Jun 09 11:11:17 BDT 2022
+base.2=/Users/omarsharif/Desktop/untitled/SessonTimeOut/app/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex
+path.2=14/classes.dex
+base.1=/Users/omarsharif/Desktop/untitled/SessonTimeOut/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+path.1=0/classes.dex
+base.0=/Users/omarsharif/Desktop/untitled/SessonTimeOut/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex
